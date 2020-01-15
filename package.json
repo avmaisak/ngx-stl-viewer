@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --port=9998 --watch --open",
     "build": "ng build",
     "build-lib": "ng build ngx-stl-viewer-lib",
     "build-all": "npm run build && npm run build-lib",
@@ -48,6 +48,6 @@
     "ts-node": "8.6.2",
     "tsickle": "^0.38.0",
     "tslint": "5.20.1",
-    "typescript": "3.5.3"
+    "typescript": "3.7.4"
   }
 }
