@@ -3,12 +3,11 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { ViewerComponent } from './stl-viewer/viewer.component';
-
+import { StlViewerComponent } from './stl-viewer/stl-viewer.component';
 @NgModule({
   declarations: [
     AppComponent,
-    ViewerComponent
+    StlViewerComponent
   ],
   imports: [
     BrowserModule,
