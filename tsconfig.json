@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngx-stl-viewer-lib": [
+        "dist/ngx-stl-viewer-lib"
+      ],
+      "ngx-stl-viewer-lib/*": [
+        "dist/ngx-stl-viewer-lib/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,

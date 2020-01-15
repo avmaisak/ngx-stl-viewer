@@ -1,0 +1,26 @@
+{
+  "name": "ngx-stl-viewer-lib",
+  "version": "0.0.1",
+  "keywords": [
+    "angular2",
+    "angular",
+    "ngx",
+    "three",
+    "three-js",
+    "stl",
+    "viewer",
+    "3d-viewer",
+    "3d",
+    "ngx-three",
+    "ui",
+    "components",
+    "library"
+  ],
+  "author": "Anton Maisak",
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "8.2.14",
+    "@angular/core": "8.2.14",
+    "three": "0.112.1"
+  }
+}

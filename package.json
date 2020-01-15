@@ -5,6 +5,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build-lib": "ng build ngx-stl-viewer-lib",
+    "build-all": "npm run build && npm run build-lib",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -20,11 +22,13 @@
     "@angular/platform-browser-dynamic": "8.2.14",
     "@angular/router": "8.2.14",
     "rxjs": "6.5.4",
+    "three": "0.112.1",
     "tslib": "1.10.0",
     "zone.js": "0.10.2"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "0.803.22",
+    "@angular-devkit/build-ng-packagr": "~0.803.22",
     "@angular/cli": "8.3.22",
     "@angular/compiler-cli": "8.2.14",
     "@angular/language-service": "8.2.14",
@@ -39,8 +43,10 @@
     "karma-coverage-istanbul-reporter": "2.1.1",
     "karma-jasmine": "3.1.0",
     "karma-jasmine-html-reporter": "1.5.1",
+    "ng-packagr": "^5.7.1",
     "protractor": "5.4.2",
     "ts-node": "8.6.2",
+    "tsickle": "^0.38.0",
     "tslint": "5.20.1",
     "typescript": "3.5.3"
   }
