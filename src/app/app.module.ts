@@ -3,15 +3,16 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { StlViewerComponent } from './stl-viewer/stl-viewer.component';
+import { NgxStlViewerModule } from 'ngx-stl-viewer';
+
 @NgModule({
   declarations: [
     AppComponent,
-    StlViewerComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxStlViewerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
